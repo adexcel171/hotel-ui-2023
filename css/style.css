@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
 
 :root{
-   --main-color:#201f1f;
-   --sub-color:#ece9e4;
-   --white:#fff;
-   --border:.1rem solid rgba(220, 198, 156, .3);
+   --main-color:rgb(241, 238, 238);
+   --sub-color:#1f1f1e;
+   --white:rgb(238, 235, 235);
+   --border:.1rem solid rgba(192, 161, 104, 0.3);
 }
 
 *{
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'poppins', sans-serif;
    margin: 0; padding: 0;
    box-sizing: border-box;
    outline: none; border: none;
@@ -35,7 +36,7 @@
 }
 
 html{
-   font-size: 62.5%;
+   font-size: 65.5%;
    overflow-x: hidden;
    scroll-behavior: smooth;
    scroll-padding-top: 2rem;
@@ -43,6 +44,9 @@ html{
 
 body{
    background-color: var(--main-color);
+}
+.logo{
+   font-weight: bolder;
 }
 
 section{
@@ -526,7 +530,7 @@ section{
 @media (max-width:991px){
 
    html{
-      font-size: 55%;
+      font-size: 60%;
    }
 
    .header .flex .fa-bars{
@@ -568,11 +572,11 @@ section{
 @media (max-width:450px){
 
    html{
-      font-size: 50%;
+      font-size: 55%;
    }
 
    .header .flex .logo{
-      font-size: 2rem;
+      font-size: 2.5rem;
    }
 
    .home .box img{
